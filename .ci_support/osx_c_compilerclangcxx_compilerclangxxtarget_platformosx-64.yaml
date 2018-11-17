@@ -8,6 +8,8 @@ channel_sources:
 - conda-forge/label/gcc7,defaults
 channel_targets:
 - conda-forge gcc7
+cran_mirror:
+- https://cran.r-project.org
 cxx_compiler:
 - clangxx
 macos_machine:
@@ -19,6 +21,8 @@ pin_run_as_build:
     max_pin: x.x.x
 r_base:
 - 3.5.1
+target_platform:
+- osx-64
 zip_keys:
 - - c_compiler
   - cxx_compiler
