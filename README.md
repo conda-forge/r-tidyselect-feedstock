@@ -1,7 +1,7 @@
 About r-tidyselect
 ==================
 
-Home: https://CRAN.R-project.org/package=tidyselect
+Home: https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect
 
 Package license: GPL-3
 
@@ -176,11 +176,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
