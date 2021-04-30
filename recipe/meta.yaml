@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidyselect_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidyselect/tidyselect_{{ version }}.tar.gz
-  sha256: e635ed381fb53f7a53c3fa36bb33e134a3273d272367de2a8d909c821be93893
+  sha256: 18eb6a6746196a81ce19ee6cbf1db0c33f494177b97e2419312ef25a00ae486b
 
 build:
   merge_build_host: true  # [win]
