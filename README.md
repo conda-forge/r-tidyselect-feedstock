@@ -3,7 +3,7 @@ About r-tidyselect
 
 Home: https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect
 
-Package license: GPL-3
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidyselect-feedstock/blob/master/LICENSE.txt)
 
