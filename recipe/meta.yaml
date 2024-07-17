@@ -1,6 +1,5 @@
 {% set version = "1.2.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-tidyselect
@@ -13,9 +12,8 @@ source:
   sha256: 169e97ba0bbfbcdf4a80534322751f87a04370310c40e27f04aac6525d45903c
 
 build:
-  merge_build_host: true  # [win]
   noarch: generic
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
